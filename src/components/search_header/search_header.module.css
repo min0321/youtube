@@ -1,0 +1,171 @@
+.header {
+  width: 100%;
+  height: 70px;
+  background-color: white;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  height: 70px;
+  padding: 0 16px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hd_start {
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.hd_menu {
+  background-image: url("C:/Users/gram/OneDrive/바탕 화면/projects/dream_coding/academy/react-basic/youtube/src/images/youtube_logo.png");
+  background-position: -60px 7.8px;
+  background-size: 490px 250px;
+  width: 45px;
+  height: 50px;
+  margin: 0 16px 0 0;
+  cursor: pointer;
+}
+
+.hd_logo {
+  background-image: url("C:/Users/gram/OneDrive/바탕 화면/projects/dream_coding/academy/react-basic/youtube/src/images/youtube_logo.png");
+  background-position: -104.8px -2.5px;
+  background-size: 473px 270px;
+  width: 130px;
+  height: 30px;
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+}
+
+.hd_center {
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  flex: 0 1 900px;
+  align-items: center;
+}
+
+.search_form {
+  display: flex;
+  flex-direction: row;
+  height: 40px;
+  flex: 1;
+  align-items: center;
+  margin: 0 0 0 40px;
+  padding: 0 4px;
+  flex-basis: 1e-9px;
+}
+
+.input_text {
+  height: 40px;
+  font-size: 20px;
+  padding-left: 5px;
+  border: 1px solid #ccc;
+  background-color: #ffffff;
+  border-right: none;
+  border-radius: 2px 0 0 2px;
+  box-shadow: inset 0 1px 2px #eee;
+  color: #111111;
+  outline: none;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+}
+
+.keyboard_box {
+  width: 50px;
+  height: 40px;
+  border: 1px solid #ccc;
+  border-left: none;
+  background-image: url("C:/Users/gram/OneDrive/바탕 화면/projects/dream_coding/academy/react-basic/youtube/src/images/input_keyboard.png");
+  background-position: -30px -17px;
+  background-size: 963px 580px;
+  cursor: pointer;
+}
+
+.button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-image: url("C:/Users/gram/OneDrive/바탕 화면/projects/dream_coding/academy/react-basic/youtube/src/images/youtube_logo.png");
+  background-position: 453px -19.8px;
+  background-size: 963px 580px;
+  width: 78px;
+  height: 40px;
+  cursor: pointer;
+  border: 1px solid #d3d3d3;
+  outline: none;
+}
+
+.mic_box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-image: url("C:/Users/gram/OneDrive/바탕 화면/projects/dream_coding/academy/react-basic/youtube/src/images/youtube_logo.png");
+  background-position: 393px -12.5px;
+  background-size: 963px 580px;
+  width: 50px;
+  height: 47px;
+  cursor: pointer;
+}
+
+.hd_end {
+  width: 300px;
+  height: 50px;
+  display: flex;
+  justify-content: flex-end;
+  justify-content: space-between;
+}
+
+.app_box {
+  width: 50px;
+  height: 50px;
+  margin-left: 60px;
+  background-image: url("C:/Users/gram/OneDrive/바탕 화면/projects/dream_coding/academy/react-basic/youtube/src/images/youtube_logo.png");
+  background-position: 325px -15.5px;
+  background-size: 963px 580px;
+  cursor: pointer;
+}
+
+.setting_box {
+  width: 50px;
+  height: 50px;
+  background-image: url("C:/Users/gram/OneDrive/바탕 화면/projects/dream_coding/academy/react-basic/youtube/src/images/youtube_logo.png");
+  background-position: 275px -15.5px;
+  background-size: 963px 580px;
+  cursor: pointer;
+}
+
+.login_box {
+  width: 110px;
+  height: 50px;
+  border: 1px solid blue;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.login_logo {
+  width: 35px;
+  height: 35px;
+  margin-left: 10px;
+  background-image: url("C:/Users/gram/OneDrive/바탕 화면/projects/dream_coding/academy/react-basic/youtube/src/images/youtube_logo.png");
+  background-position: 208.3px -24.4px;
+  background-size: 963px 580px;
+}
+
+.login_text {
+  width: 50px;
+  height: 30px;
+  line-height: 30px;
+  color: blue;
+  margin-right: 10px;
+}
+
+/* --------------------------------------------------siderbar----------------------------------------------------------------- */
